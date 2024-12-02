@@ -1,0 +1,313 @@
+:root {
+    --primary-color: rgba(33, 150, 243, 1);
+    --secondary-color: rgba(117, 117, 117, 1);
+    --background-light: rgba(245, 244, 250, 1); 
+    --text-dark: rgba(33, 33, 33, 1); 
+    --white-color: #ffffff; 
+    --black-color: #000000;  
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+}
+
+.logo {
+    font-family: 'Arial', sans-serif;
+    font-size: 26px; 
+    font-weight: bold; 
+    text-decoration: none; 
+    display: inline-block;
+}
+
+.logo .blue {
+    color: var(--primary-color);
+}
+
+.logo .white {
+    color: var(--white-color); 
+}
+
+.logo .black {
+    color: var(--black-color);
+}
+
+.envelope {
+    fill: var(--secondary-color); 
+}
+
+.envelope:hover {
+    fill: var(--primary-color);
+}
+
+.smartphone {
+    fill: var(--secondary-color);
+}
+
+.smartphone:hover {
+    fill: var(--primary-color);
+}
+
+.site-nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.header {
+    background-color: var(--white-color);
+    width: 100%;
+}
+.site-nav a:hover{
+    color: var(--primary-color);
+}
+
+.site-nav {
+    color: var(--text-dark);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.auth-nav {
+    font-weight: bold;
+    font-style: normal;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.auth-nav a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.auth-nav a:hover{
+    color: var(--primary-color);
+}
+
+.hero {
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 6%;
+    color: var(--white-color);
+    background-color: rgba(47, 48, 58, 1);
+    width: 100%;
+    height: 600px;
+}
+
+.button {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 6%;
+    background-color: var(--primary-color);;
+    color: var(--white-color);
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.section {
+    text-decoration: none;
+    color: inherit;
+    font-style: normal;
+}
+
+.antenna-container,
+.clock-container,
+.diagram-container,
+.astronaut-container {
+    width: 270px;
+    height: 120px;
+    border-radius: 8px;
+    background-color: var(--background-light); 
+}
+
+.section ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    max-width: 250px;
+}
+
+.section h3 {
+    font-weight: bold;
+    color: var(--text-dark);
+    margin-bottom: 10px;
+}
+
+.section p {
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.section-works ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+.section-works h2 {
+    font-size: 36px;
+    color: var(--text-dark);
+}
+
+.section-works .images img{
+    border-radius: 10px;
+}
+
+.section-team {
+    background-color: var(--background-light);
+}
+
+.section-team ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    max-width: 250px;
+}
+
+.section-team h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.section-team svg:hover {
+    fill: var(--white-color); 
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    cursor: pointer; 
+}
+
+.Betty-Foriz-container p:first-of-type,
+.Folke-Booke-container p:first-of-type,
+.Mito-Dito-container p:first-of-type,
+.Loa-Spetnaz-container p:first-of-type {
+    letter-spacing: 3%;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.Betty-Foriz-container p:last-of-type,
+.Folke-Booke-container p:last-of-type,
+.Mito-Dito-container p:last-of-type,
+.Loa-Spetnaz-container p:last-of-type {
+    font-weight: 400;
+    letter-spacing: 3%;
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+
+.Betty-Foriz-container,
+.Folke-Booke-container,
+.Mito-Dito-container,
+.Loa-Spetnaz-container {
+    width: 270px;
+    height: 428px;
+    background-color: var(--white-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: rgba(47, 48, 58, 1);
+    color: var(--white-color);
+    padding: 60px 30px;
+    width: 100%;
+    font-style: normal;
+}
+
+.footer address {
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.footer address ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer address ul li a {
+    font-weight: 500;
+    text-decoration: none; 
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+}
+
+.join p {
+    color: var(--white-color);
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+.join li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 44px; 
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.join li svg {
+    fill: var(--white-color);
+    width: 20px;
+    height: 20px;
+}
+
+.join li:hover {
+    background-color: var(--primary-color);;
+}
+
+.subscribe-mailing-list {
+    color: var(--white-color);
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subscribe-mailing-list p {
+    color: var(--white-color);
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.email-input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.button-footer {
+    background-color: var(--primary-color);
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--white-color);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+}
