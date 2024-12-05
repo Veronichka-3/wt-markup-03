@@ -36,7 +36,7 @@
     </header>
     <main>
     <section class="hero">
-        <h1>Ми створюємо легкі рішення складних завдань для вашого бізнеса</h1>
+        <h1>Ми створюємо легкі рішення <br> складних завдань для вашого бізнеса</h1>
         <button type="button" class="button">Замовити послугу</button>
     </section>
     <section class="section">
@@ -90,6 +90,7 @@
                 <div class="Betty-Foriz-container">
                 <img src="./images/betty.jpg" alt="Betty Foriz" width="270" height="260">
                 <p>Betty Foriz</p> <p>Product Designer</p>
+                <div class="social-icons">
                 <svg class="instagram" width="20" height="20">
                     <use href="./images/sprite.svg#instagram"></use>
                 </svg>
@@ -101,12 +102,13 @@
                 </svg>
                 <svg class="linkedin" width="20" height="20">
                     <use href="./images/sprite.svg#linkedin"></use>
-                </svg></div>
+                </svg></div></div>
             </li>
             <li>
                 <div class="Folke-Booke-container">
                 <img src="./images/folke.jpg" alt="Folke Booke" width="270" height="260">
                 <p>Folke Booke</p> <p>Frontend Developer</p>
+                <div class="social-icons">
                 <svg class="instagram" width="20" height="20">
                     <use href="./images/sprite.svg#instagram"></use>
                 </svg>
@@ -118,12 +120,13 @@
                 </svg>
                 <svg class="linkedin" width="20" height="20">
                     <use href="./images/sprite.svg#linkedin"></use>
-                </svg></div>
+                </svg></div></div>
             </li>
             <li>
                 <div class="Mito-Dito-container">
                 <img src="./images/mito.jpg" alt="Mito Dito" width="270" height="260">
                 <p>Mito Dito</p> <p>Marketing</p>
+                <div class="social-icons">
                 <svg class="instagram" width="20" height="20">
                     <use href="./images/sprite.svg#instagram"></use>
                 </svg>
@@ -135,12 +138,13 @@
                 </svg>
                 <svg class="linkedin" width="20" height="20">
                     <use href="./images/sprite.svg#linkedin"></use>
-                </svg></div>
+                </svg></div></div>
             </li>
             <li>
                 <div class="Loa-Spetnaz-container">
                 <img src="./images/loa.jpg" alt="Loa Spetnaz" width="270" height="260">
                 <p>Loa Spetnaz</p> <p>UI Designer</p>
+                <div class="social-icons">
                 <svg class="instagram" width="20" height="20">
                     <use href="./images/sprite.svg#instagram"></use>
                 </svg>
@@ -152,24 +156,26 @@
                 </svg>
                 <svg class="linkedin" width="20" height="20">
                     <use href="./images/sprite.svg#linkedin"></use>
-                </svg></div>
+                </svg></div></div>
             </li> 
         </ul>     
     </section>
     </main>
     <footer class="footer">
-        <a href="./index.html" class="logo">
-            <span class="blue">Dev</span><span class="white">Studio</span>
-        </a>
-        <address>
-            м. Харків, вул. Ярослава Мудрого, 18
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380680001100">+38 068 000 11 00</a></li>
-            </ul>
-        </address>
+        <div class="footer-logo-address">
+            <a href="./index.html" class="logo">
+                <span class="blue">Dev</span><span class="white">Studio</span>
+            </a>
+            <address>
+                м. Харків, вул. Ярослава Мудрого, 18
+                <ul>
+                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a href="tel:+380680001100">+38 068 000 11 00</a></li>
+                </ul>
+            </address>
+        </div>
         <ul class="join">
-                <p>ПРИЄДНУЙТЕСЬ</p>
+            <p>ПРИЄДНУЙТЕСЬ</p>
             <li><svg class="instagram" width="20" height="20">
                     <use href="./images/sprite.svg#instagram"></use>
                 </svg></li>
@@ -186,11 +192,10 @@
         <div class="subscribe-mailing-list">
             <p>ПІДПИШИСЬ НА РОЗСИЛКУ</p>
             <label>
-                <input type="email" name="email" 
-                placeholder="E-mail"/>
+                <input type="email" class="email-input" placeholder="E-mail">
             </label>
             <button type="button" class="button-footer">Підписатись</button>
         </div>
-    </footer>
+    </footer>    
 </body>
 </html>
